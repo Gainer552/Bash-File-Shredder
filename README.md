@@ -27,10 +27,9 @@ To use this program, follow these steps:
 4. Run the script: ./bash_File_Shredder.sh
 5. Enable or disable logging of the deletion process.
 6. Enter up to 5 file paths for secure deletion.
-7. Enter File Paths: Input paths for up to 5 files to shred and delete.
-8. Confirm Shredding: Confirm to securely overwrite file contents 25 times.
-9. Confirm Deletion: After shredding, confirm to delete the files.
-10. Check Log: If logging is enabled, file details will be recorded in deleted_files_log.csv.
+7. Confirm Shredding: Confirm to securely overwrite file contents 25 times.
+8. Confirm Deletion: After shredding, confirm to delete the files.
+9. Check Log: If logging is enabled, file details will be recorded in deleted_files_log.csv.
 
 Features
 
