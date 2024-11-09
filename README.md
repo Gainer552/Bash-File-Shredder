@@ -11,14 +11,14 @@ Table of Contents
 - Usage
 - Features
 - Tests
-- Installation
-- Download the Bash_File_Shredder folder, which contains the bash_File_Shredder.sh script.
-- Extract the folder to your preferred directory:
-- bash
-- Copy code
-- tar -xvf Bash_File_Shredder.tar.gz
-- Usage
-- 
+
+Installation
+
+1. Download the Bash_File_Shredder folder, which contains the bash_File_Shredder.sh script.
+2. Extract the folder to your preferred directory.
+
+Usage
+
 To use this program, follow these steps:
 
 1. Open your terminal.
