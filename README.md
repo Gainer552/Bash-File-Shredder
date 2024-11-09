@@ -1,23 +1,23 @@
 # bash_File_Shredder
 Bash File Shredder is a Free and Open-source, secure, user-friendly utility that permanently deletes sensitive files with optional logging, ensuring data is irrecoverable and audit-ready.
 
-Description
+**Description**
 
 Bash File Shredder is a secure, easy-to-use utility for permanently deleting files. By overwriting each file multiple times, this tool ensures no data can be recovered, giving users peace of mind when handling sensitive information. The optional logging feature provides a record of deleted files, making it ideal for users who need secure and auditable data deletion.
 
-Table of Contents
+**Table of Contents**
 
 - Installation
 - Usage
 - Features
 - Tests
 
-Installation
+**Installation**
 
 1. Download the Bash_File_Shredder folder, which contains the bash_File_Shredder.sh script.
 2. Extract the folder to your preferred directory.
 
-Usage
+**Usage**
 
 To use this program, follow these steps:
 
@@ -31,21 +31,24 @@ To use this program, follow these steps:
 8. Confirm Deletion: After shredding, confirm to delete the files.
 9. Check Log: If logging is enabled, file details will be recorded in deleted_files_log.csv.
 
-Features
+**Features**
 
-Path Validation and Entry
+Path Validation and Entry:
 
 - Accepts up to 5 file paths. Validates each file path, restarting if none are provided initially.
-Secure Shredding
+
+Secure Shredding:
 
 - Uses the shred command to overwrite files 25 times, zeroing out data and displaying progress.
-Optional Deletion
+
+Optional Deletion:
 
 - Prompts users to delete files after shredding, using rm for secure removal.
-Optional Logging
+
+Optional Logging:
 
 - Logs the file path, deletion date, and deletion time in a CSV format, compatible with LibreOffice Calc for audit trails.
 
-Tests
+**Tests**
 
-All features of Bash File Shredder have been tested to ensure functionality, data protection, and usability. Optional logging, secure deletion, and file path validation work seamlessly for a user-friendly experience.
+All features of Bash File Shredder have been tested by a professional QA Tester to ensure functionality, data protection, and usability. Optional logging, secure deletion, and file path validation work seamlessly for a user-friendly experience.
