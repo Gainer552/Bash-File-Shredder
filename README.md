@@ -53,3 +53,5 @@ Optional Logging:
 **Tests**
 
 All features of Bash File Shredder have been tested by a professional QA Tester to ensure functionality, data protection, and usability. Optional logging, secure deletion, and file path validation work seamlessly for a user-friendly experience.
+
+Disclaimer: This Bash File Shredder tool is provided as-is, without any warranties or guarantees of any kind, including but not limited to functionality, security, or compatibility. Use this tool at your own risk. The developer is not responsible for any data loss, damage to files, or other consequences that may arise from the use or misuse of this tool. Ensure that you have backups of any critical data before using the file shredder, as data deleted with this tool is irrecoverable.
