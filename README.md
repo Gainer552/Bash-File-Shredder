@@ -8,10 +8,10 @@ Bash File Shredder is a secure, easy-to-use utility for permanently deleting fil
 
 **Table of Contents**
 
-- Installation
-- Usage
-- Features
-- Tests
+1. Installation
+2. Usage
+3. Features
+4. Tests
 
 **Installation**
 
@@ -28,27 +28,27 @@ To use this program, follow these steps:
 4. Run the script: ./bash_File_Shredder.sh
 5. Enable or disable logging of the deletion process.
 6. Enter up to 5 file paths for secure deletion.
-7. Confirm Shredding: Confirm to securely overwrite file contents 25 times.
-8. Confirm Deletion: After shredding, confirm to delete the files.
-9. Check Log: If logging is enabled, file details will be recorded in deleted_files_log.csv.
+7. Confirm shredding: Confirm to securely overwrite file contents 25 times.
+8. Confirm deletion: After shredding, confirm to delete the files.
+9. Check log: If logging is enabled, file details will be recorded in deleted_files_log.csv, which will appear in the directory the program is executed in.
 
 **Features**
 
-Path Validation and Entry:
+**Path Validation and Entry:**
 
-- Accepts up to 5 file paths. Validates each file path, restarting if none are provided initially.
+Accepts up to 5 file paths. Validates each file path, restarting if none are provided initially.
 
-Secure Shredding:
+**Secure Shredding:**
 
-- Uses the shred command to overwrite files 25 times, zeroing out data and displaying progress.
+Uses the shred command to overwrite files 25 times, zeroing out data and displaying progress.
 
-Optional Deletion:
+**Optional Deletion:**
 
-- Prompts users to delete files after shredding, using rm for secure removal.
+Prompts users to delete files after shredding, using rm for secure removal.
 
-Optional Logging:
+**Optional Logging:**
 
-- Logs the file path, deletion date, and deletion time in a CSV format, compatible with LibreOffice Calc for audit trails.
+Logs the file path, deletion date, and deletion time in a CSV format, compatible with LibreOffice Calc for audit trails.
 
 **Tests**
 
