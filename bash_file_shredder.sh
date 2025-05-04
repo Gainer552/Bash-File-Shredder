@@ -29,7 +29,7 @@ fi
 echo
 
 # Requests names of files from user.
-read -p "What is the 1'st file path?" file1
+read -p "What is the 1'st file path? " file1
 # Validation of file path entry.
 if [ -z "$file1" ]; then
 	echo
@@ -37,10 +37,10 @@ if [ -z "$file1" ]; then
 	echo
 	exec "$0"
 fi
-read -p "What is the 2'nd file path?" file2
-read -p "What is the 3'rd file path?" file3
-read -p "What is the 4'th file path?" file4
-read -p "What is the 5'th file path?" file5
+read -p "What is the 2'nd file path? " file2
+read -p "What is the 3'rd file path? " file3
+read -p "What is the 4'th file path? " file4
+read -p "What is the 5'th file path? " file5
 echo
 
 # Verifies the paths are for files.
